@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>イラストポートフォリオ | [あなたの名前]</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header class="header">
+        <h1>イラストポートフォリオ</h1>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">イラスト</a></li>
+                <li><a href="#video">制作動画</a></li>
+                <li><a href="#contact">連絡先</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="portfolio" class="section portfolio-section">
+            <h2>イラスト</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="/Users/ryuga_inoue/Desktop/ポートフォリオ/image/IMG_0997.jpeg" alt="作品1 - キャラクターイラスト" data-caption="作品1 - キャラクターイラスト">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/ryuga_inoue/Desktop/ポートフォリオ/image/IMG_1025.jpeg" alt="作品2 チェンソーマンファンアート" data-caption="作品2 - チェンソーマンファンアート">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/ryuga_inoue/Desktop/ポートフォリオ/image/0147db43105e5786.png" alt="作品3 - 初音ミクキャラクターイラスト" data-caption="作品3 - 初音ミクキャラクターイラスト">
+                </div>
+             
+        </section>
+        
+        <section id="portfolio" class="section portfolio-section">
+            <h2>キャラクターデザイン</h2>
+            <div class="gallery">
+                <dev class="gallery-item">
+                    <img src="image/IMG_3492.JPG" alt="okkeキャラクターデザイン" data-caption="okkeキャラクターデザイン">
+                </dev>
+                <dev class="gallery-item">
+                    <img src="/Users/ryuga_inoue/Desktop/ポートフォリオ/image/okke.png" alt="okkeキャラクターデザイン2" data-caption="okkeキャラクターデザイン2">
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>制作動画</h2>
+            <div class="video-container">
+                <video controls muted autoplay loop>
+                    <source src="/Users/ryuga_inoue/Desktop/ポートフォリオ/image/-7470100849325038197__________________1.mp4" type="video/mp4">
+                    申し訳ありません。お使いのブラウザは動画の再生に対応していません。
+                </video>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>連絡先 / Contact</h2>
+            <p>メール: rinne8587@gmail.com</p>
+            <p>X (Twitter): <a href="https://x.com/rinne_041" target="_blank">@rinne_041</a></p>
+        </section>
+
+    </main>
+
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="caption"></div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
